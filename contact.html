@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" type="text/css" href="css\styles.css"/>
+    <script src="js\contactVal.js"></script>
+</head>
+<body>
+    <header id="head">
+        <h1>Contact Us</h1>
+    </header>
+    <nav id="navBar">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Our Projects</a>
+        <a href="about.html">About Us</a>
+    </nav>
+    <p>Please fill out this form to get in touch. We'll reply as soon as possible!</p>
+    <p id="required">* = required</p>
+    <form action="index.html" id="form" onsubmit="return validateContact()" method="post">
+        <label for="fullName">Full name<label id="required">*</label>: </label><br>
+        <input type="text" id="fullName" name="fullName"/><br>
+        <label for="email">E-mail address<label id="required">*</label>: </label><br>
+        <input type="email" id="email" name="email"/><br>
+        <label for="phone">Phone number: </label><br>
+        <input type="text" id="phone" name="phone"/><br>
+        <label for="message">Message :</label><br>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="submit" value="Send Message"/>
+        <input type="reset"/>
+    </form>
+</body>
+</html>

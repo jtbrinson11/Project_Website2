@@ -1,0 +1,72 @@
+body {
+
+    background-color: aqua;
+}
+
+p {
+
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+a {
+
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+input {
+
+    min-height: 40px;
+    min-width: 80px;
+    font-size: 30px;
+}
+
+textarea {
+
+    min-width: auto;
+    min-height: auto;
+    font-size: 30px;
+}
+
+#head {
+
+    text-align: center;
+    margin: auto;
+}
+
+#navBar {
+
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+#welcome {
+
+    text-align: center;
+    margin: auto;
+    padding-top: 55px;
+}
+
+#form {
+
+    font-size: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#required {
+
+    color: red;
+}
+
+#numLeft {
+
+    font-size: 20px;
+}
